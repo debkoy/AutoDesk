@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+  
+header {
+    background-color: #1f2731; 
+    padding: 20px; 
+    color: white;
+    text-align: left;
+    
+}
+main{
+    padding: 500px;
+    background-image: url("inhance.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    margin: 0;
+    box-sizing: border-box;
+    object-fit: contain;
+
+
+}
+
+.text-al{
+    text-align: left;
+    margin: 30px;
+    
+}
+
+.text-al1{
+    text-align: left;
+    margin: 10px;
+}
+.hometab{
+    background-color: #1f2731;
+    overflow: hidden;
+
+
+  
+  
+}
+.hometab a{
+    float: right;
+    text-align: center;
+    padding: 15px 17px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.hometab a.active{
+    background-color: red;
+    color: white;
+}
+content{
+
+}
+footer{
+    background-color: #1f2731; 
+    padding: 30px; 
+    color: white;
+    text-align: center;
+    margin: 0;
+    
+    
+}
+.footer{
+    cursor: pointer;
+}
+#white{
+    color: white;
+    text-decoration-color: white ;
+    text-decoration: none;
+    cursor: pointer;
+}
